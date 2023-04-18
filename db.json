@@ -1,9 +1,60 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "heroes": [
+    {
+      "id": "f7c3fe80-75b6-4034-a121-cf9b1d23a9f3",
+      "name": "Some hero",
+      "description": "Something",
+      "element": "fire"
+    },
+    {
+      "id": "258e44df-b9ac-46e1-a4f1-cef1943c1cc5",
+      "name": "Some hero",
+      "description": "Something",
+      "element": "water"
+    },
+    {
+      "id": "f8d9658f-0bb9-40dc-a376-e4ce61968f06",
+      "name": "Some hero",
+      "description": "Something",
+      "element": "wind"
+    },
+    {
+      "id": "9599da24-09c0-43b6-bd7d-5ec185fa5622",
+      "name": "Some hero",
+      "description": "Something",
+      "element": "earth"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "filters": [
+    {
+      "id": "all",
+      "name": "all",
+      "label": "all",
+      "className": "btn-outline-dark"
+    },
+    {
+      "id": "fire",
+      "name": "fire",
+      "label": "Fire",
+      "className": "btn-danger"
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "label": "Water",
+      "className": "btn-primary"
+    },
+    {
+      "id": "wind",
+      "name": "wind",
+      "label": "Wind",
+      "className": "btn-success"
+    },
+    {
+      "id": "earth",
+      "name": "earth",
+      "label": "Earth",
+      "className": "btn-secondary"
+    }
+  ]
 }
